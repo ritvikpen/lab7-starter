@@ -71,7 +71,7 @@ function initFormHandler() {
 		formElement.reset();
 	});
 
-	const clearStorageButton = document.querySelector("#clear-storage");
+	const clearStorageButton = document.querySelector(".danger");
 	clearStorageButton.addEventListener("click", () => {
 		localStorage.clear();
 		document.querySelector("main").innerHTML = "";
